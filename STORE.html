@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>รวมช่องทางติดต่อ</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        body { font-family: 'Kanit', sans-serif; background-color: #f0f2f5; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; padding: 20px; box-sizing: border-box; }
+        .card { background: white; padding: 40px 30px; border-radius: 24px; box-shadow: 0 10px 40px rgba(0,0,0,0.08); width: 100%; max-width: 340px; text-align: center; }
+        
+        .profile-img { 
+            width: 120px; 
+            height: 120px; 
+            background-color: #eee; 
+            border-radius: 50%; 
+            margin-bottom: 15px; 
+            object-fit: cover; 
+            border: 4px solid white; 
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+        h2 { 
+            margin: 5px 0 5px; 
+            color: #2d3436; 
+            font-size: 1.6em; 
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        p { 
+            margin: 0 0 25px; 
+            color: #636e72; 
+            font-size: 0.95em; 
+            font-weight: 300;
+        }
+        
+        .btn { display: block; width: 100%; color: white; text-decoration: none; padding: 14px 0; margin-bottom: 12px; border-radius: 12px; font-weight: 500; transition: 0.2s; box-shadow: 0 4px 6px rgba(0,0,0,0.05); position: relative; border: none; cursor: pointer; box-sizing: border-box; font-size: 1rem;}
+        .btn:hover { transform: translateY(-3px); opacity: 0.95; box-shadow: 0 8px 15px rgba(0,0,0,0.1); }
+        
+        .facebook { background: #1877f2; }
+        .instagram { background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); }
+        .line { background: #06c755; }
+        .whatsapp { background: #25D366; }
+        .shopee { background: #EE4D2D; }
+        .tiktok { background: #000000; }
+
+        .divider { margin: 30px 0 20px 0; border-top: 1px solid #eee; position: relative; }
+        .divider span { background: white; padding: 0 15px; color: #b2bec3; font-size: 0.85em; position: absolute; top: -12px; left: 50%; transform: translateX(-50%); font-weight: 300; }
+
+        .shop-group { display: flex; gap: 10px; }
+        .shop-group .btn { margin-bottom: 0; font-size: 0.9em; padding: 12px 5px; }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="https://scontent.fbkk25-1.fna.fbcdn.net/v/t39.30808-6/481250153_2336530630067293_6226180084377676294_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEv_KpsC_oVqcLXRXNHiN5gPdUaspNZeNM91Rqyk1l40zrxtrVJEDCZMhDGA5WqjOnpvut-5-5fItLpwDBrDW-d&_nc_ohc=3aFLGOiOjFUQ7kNvwGXyZjY&_nc_oc=AdmnfVCtLSo7JjRx_4MDwI0DrB9-8Dz16JUZmmPgfUIz2nTHn6kNozz1BrOAYSzgAn2So6neHO3L5moff8mUzQzV&_nc_zt=23&_nc_ht=scontent.fbkk25-1.fna&_nc_gid=dAUjTf4ajEUmBbcO14xyEQ&oh=00_AfskCKYvBpBlody91SsJyYujx4tYuXuDscXus2PdftVKVw&oe=698359F5" alt="Profile" class="profile-img">
+        
+        <h2>ช่องทางติดต่อ</h2>
+        <p>กดเลือกลิงก์ด้านล่างเพื่อทักแชทได้เลยครับ 👇</p>
+
+        <a href="https://facebook.com/chitsanucha.nuthim" target="_blank" class="btn facebook">Facebook</a>
+        <a href="https://instagram.com/chit_onyx" target="_blank" class="btn instagram">Instagram</a>
+        <a href="https://line.me/ti/p/~@Kongpt2548" target="_blank" class="btn line">Line @Kongpt2548</a>
+        <a href="https://wa.me/66980573163" target="_blank" class="btn whatsapp">WhatsApp</a>
+
+        <div class="divider">
+            <span>🛒 ร้านค้าออนไลน์</span>
+        </div>
+
+        <div class="shop-group">
+            <a href="https://collshp.com/chit_onyx?view=storefront" target="_blank" class="btn shopee">Shopee</a>
+            <a href="https://tiktok.com/@k_csnc" target="_blank" class="btn tiktok">TikTok Shop</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
